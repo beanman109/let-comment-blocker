@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>LET Blocker</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Block Users</h1>
+
+    <input type="text" id="usernameInput" placeholder="Enter username" />
+    <button id="addBtn">Add</button>
+    <ul id="userList"></ul>
+
+    <hr />
+
+    <div id="pageStats">
+      <h2>Page Info</h2>
+      <p><strong>Comments Blocked:</strong> <span id="blockedCount">0</span></p>
+      <button id="debugBtn">Show Debug Info</button>
+      <div id="debugInfo" class="hidden"></div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

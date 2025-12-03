@@ -1,0 +1,29 @@
+#pageStats {
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+
+#debugBtn {
+  margin-top: 6px;
+  background: #444;
+  border: none;
+  color: white;
+  padding: 3px 6px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#debugInfo {
+  margin-top: 8px;
+  max-height: 150px;
+  overflow-y: auto;
+  background: #111;
+  color: #0f0;
+  font-family: monospace;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.hidden {
+  display: none;
+}
